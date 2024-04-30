@@ -1,0 +1,27 @@
+<div class="clients-form">
+    <h2>{{ pageTitle }}</h2>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="name-text">Nome:</label>
+        <input id="name-text" type="text" placeholder="Digite seu nome" [(ngModel)]="formData.name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="age-text">Idade:</label>
+        <input id="age-text" type="number" placeholder="Digite sua idade" [(ngModel)]="formData.age" name="age">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Digite seu email" [(ngModel)]="formData.email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="password">Crie uma senha:</label>
+        <input id="password" type="password" placeholder="Digite sua senha" [(ngModel)]="formData.password" name="password">
+      </div>
+      <div class="form-group" *ngIf="isNewClient">
+        <label for="password-confirmation">Repita a senha:</label>
+        <input id="password-confirmation" type="password" placeholder="Repita sua senha" [(ngModel)]="formData.passwordConfirmation" name="passwordConfirmation">
+      </div>
+      <button type="submit">{{ isNewClient ? 'Adicionar' : 'Atualizar' }}</button>
+    </form>
+  </div>
+  

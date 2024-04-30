@@ -1,0 +1,20 @@
+.about-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.about-container h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+  
+.about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+  
+.focus {
+    color: #007bff;
+}

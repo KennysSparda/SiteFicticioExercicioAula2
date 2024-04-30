@@ -1,0 +1,17 @@
+<div *ngIf="client" class="clients-details-container">
+    <div class="client-details-card">
+        <h2 class="client-details-title">Detalhes do Cliente</h2>
+        <div class="client-details-item">
+            <span class="client-details-label">Nome:</span>
+            <span class="client-details-value">{{ client.name }}</span>
+        </div>
+        <div class="client-details-item">
+            <span class="client-details-label">Idade:</span>
+            <span class="client-details-value">{{ client.age }}</span>
+        </div>
+        <div class="client-details-item">
+            <span class="client-details-label">Email:</span>
+            <span class="client-details-value">{{ client.email }}</span>
+        </div>
+    </div>
+</div>
