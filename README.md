@@ -1,27 +1,36 @@
-# AppTentativaDois
+# Hellorld 
+Site Ficticio para um Exercicio 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.11.
+## Sobre
+Projeto proposto na aula dois do Modulo Desenvolvimento Mobile com Angular do segundo ano do curso de Ciências da Computação na [FACULDADE DESCOMPLICA](https://descomplica.com.br/faculdade/)
 
-## Development server
+### Imagens do projeto
+- Página inicial
+- ```/```
+![Home](/src/assets/readmeImages/Screenshot_2024-04-30_02-53-37.png)
+- Página clientes
+- ```/clients/```
+![Home](/src/assets/readmeImages/Screenshot_2024-04-30_02-54-16.png)
+- Página de detalhes do cliente
+- ```/clients/1```
+![Home](/src/assets/readmeImages/Screenshot_2024-04-30_02-54-43.png)
+- Página de edição do cliente
+- ```/clients/2/edit/```
+![Home](/src/assets/readmeImages/Screenshot_2024-04-30_02-55-03.png)
+- Página Sobre
+- ```/about/```
+![Home](/src/assets/readmeImages/Screenshot_2024-04-30_02-55-24.png)
+- Página Visão
+- ```/about/vision/```
+![Home](/src/assets/readmeImages/Screenshot_2024-04-30_02-55-48.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Como rodar o projeto
 
-## Code scaffolding
+1. ```git clone https://github.com/KennysSparda/SiteFicticioExercicioAula2```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+2. ```cd SiteFicticioExercicioAula2```
 
-## Build
+3. ```npm install && npm run start```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Autores 
+- Kenny Vargas
